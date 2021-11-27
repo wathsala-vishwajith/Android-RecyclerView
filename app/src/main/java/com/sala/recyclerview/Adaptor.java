@@ -10,6 +10,8 @@ import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.squareup.picasso.MemoryPolicy;
+import com.squareup.picasso.NetworkPolicy;
 import com.squareup.picasso.Picasso;
 
 public class Adaptor extends RecyclerView.Adapter<Adaptor.carditem> {
@@ -42,12 +44,12 @@ public class Adaptor extends RecyclerView.Adapter<Adaptor.carditem> {
 
     @Override
     public void onBindViewHolder(@NonNull carditem holder, int position) {
-        Picasso.get().load("https://cataas.com/cat?width=500").into(holder.imageView);
+        Picasso.get().load("https://cataas.com/cat?width=500").networkPolicy(NetworkPolicy.NO_CACHE,NetworkPolicy.NO_STORE).memoryPolicy(MemoryPolicy.NO_CACHE,MemoryPolicy.NO_STORE).into(holder.imageView);
     }
 
     @Override
     public int getItemCount() {
-        return 1;
+        return 10;
     }
 
 }

@@ -1,6 +1,7 @@
 package com.sala.recyclerview;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -16,5 +17,9 @@ public class MainActivity extends AppCompatActivity {
         rv.setHasFixedSize(true);
         LinearLayoutManager llm = new LinearLayoutManager(this);
         rv.setLayoutManager(llm);
+        rv.setItemAnimator(new DefaultItemAnimator());
+
+        Adaptor adaptor = new Adaptor(getApplicationContext());
+        rv.setAdapter(adaptor);
     }
 }
