@@ -1,7 +1,11 @@
-##Cats on Recycler
+# Cats on Recycler
+
+Preview:
+
 https://user-images.githubusercontent.com/64484342/143766096-fea698fe-5ad2-4e67-bbdb-0bf0b88ef637.mp4
 
-References
+## References
+
 https://stackoverflow.com/questions/38743298/recyclerviewpagination-endless-infinite-scrolling-issue
 https://stackoverflow.com/questions/36576442/recycler-view-showing-single-item
 https://stackoverflow.com/questions/30728511/android-picasso-cache-images
