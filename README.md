@@ -1,4 +1,5 @@
 ##Cats on Recycler
+https://user-images.githubusercontent.com/64484342/143766096-fea698fe-5ad2-4e67-bbdb-0bf0b88ef637.mp4
 
 References
 https://stackoverflow.com/questions/38743298/recyclerviewpagination-endless-infinite-scrolling-issue
@@ -13,3 +14,6 @@ https://guides.codepath.com/android/Displaying-Images-with-the-Picasso-Library
 https://guides.codepath.com/android/using-the-recyclerview
 https://guides.peruzal.com/v1/android-guides/networking/
 https://developer.android.com/guide/topics/ui/layout/recyclerview
+
+
+
